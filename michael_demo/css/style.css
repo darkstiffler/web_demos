@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,300italic);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
+
+.box {
+	border: 1px solid black;
+	height: 50px;
+	width: 50px;
+}
+.box1 {
+	background-color: red;
+}
+.box2 {
+	position: relative;
+	top: -5px;
+	left: 5px;
+	background-color: green;
+}
+.box3 {
+	position: relative;
+	top: -10px;
+	left: 10px;
+	background-color: blue;
+}
+.one {
+	height: 50px;
+	width: 50px;
+}
+.two {
+	height: 20px;
+	width: 25px;
+	margin: 10px;
+}
+.one, .two {
+	border: 2px solid black;
+}
+#buttons {
+	margin: 0 auto;
+	width: 224px;
+}
+#b1, #b2 {
+	height: 30px;
+	width: 90px;
+	margin: 10px;
+	border-radius: 3px;
+}
+a {
+	text-decoration: none;
+}
+a:visited {
+	color: blue;
+}
+a:hover {
+	color: green;
+	cursor: wait;
+}
+
+h1 {
+	font-family: "Lato";
+	font-weight: 300;
+}
+h2 {
+	font-family: "Ubuntu Mono";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

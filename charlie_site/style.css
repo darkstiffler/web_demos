@@ -1,0 +1,86 @@
+#header {
+	height:50px;
+	padding:15px;
+	font-size:23px;
+	margin-top:-30;
+	font-color:white;
+	font-family: "Andale Mono", AndaleMono, monospace;
+}
+
+#since1978 {
+	float:right;
+	margin-top:-50px;
+	font-size:20px;
+}
+
+body {
+	background:#7AC5CD;
+	margin:0;
+	padding:0;
+}
+
+nav {
+	text-align:right;
+}
+
+a:link {
+	text-decoration:none;
+	text-color:black;
+}
+
+a:visited {
+	text-decoration:none;
+}
+
+#img {
+	position:static;
+	float:left;
+	padding-right:30px;
+	text-align:center;
+}
+
+#content {
+	float: left;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	display: inline;
+	width: 500px;
+	padding-top: 100;
+	padding-right:50;
+	margin-left:20;
+}
+
+#footer {
+	position:absolute;
+	height:50px;
+	padding:10px;
+	padding-left:50px;
+	font-size:23px;
+	margin-top:-30;
+	font-family: "Andale Mono", AndaleMono, monospace;
+}
+
+#bottom {
+	margin-top: 550px;
+	text-align: left;
+	margin-left: -42px;
+}
+
+#bottom li{
+	float:right;
+	margin:10px;
+}
+
+.icons {
+	position:relative;
+	float:right;
+	margin-top:504px;
+	padding-right:10px;
+}
+
+#coder {
+	position: absolute;
+	bottom: 10px;
+	right: 1px;
+	height: 100px;
+	width: auto;
+}

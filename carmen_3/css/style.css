@@ -1,0 +1,23 @@
+#container nav ul {
+	list-style-type: none;
+}
+#container nav ul li {
+	float: left;
+	margin: 8px;
+	border: 2px solid black;
+	padding: 3px;
+}
+#container nav ul li:hover {
+	background-color: black;
+}
+#container a {
+	text-decoration: none;
+	text-align: center;
+}
+#container a:visited {
+	color: blue;
+}
+nav {
+	height: 40px;
+	background-color: grey;
+}
