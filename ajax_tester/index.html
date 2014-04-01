@@ -9,19 +9,21 @@
 
 	<!-- all javascript and jquery / jqueryui CDN and links -->
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="moment.js"></script>
 	<script type="text/javascript" src="main.js"></script>
 	<script type="text/javascript" src="jquery-ui.js"></script>
 </head>
 <header>
 	<div id="statBox">
+ 				<!-- 	the jquery status light is naturally red.  using jquery, it is changed to green. -->		
 		<div id="statusLight"></div>
-		<div id="statMsg">jQuery Status Light</div>
-		<div id="defi">If the above light is red.  jQuery is not loaded properly.</div>
 	</div>
 </header><!-- end header -->
 <body>
-
+  <h1>Local time: <span class="local-time"></span></h1>
+  <div class="results">
+    
+  </div>
 </body><!-- end body -->
 <footer>
 		

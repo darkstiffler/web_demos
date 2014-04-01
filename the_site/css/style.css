@@ -65,7 +65,9 @@ a:visited {
 a, a:visited {
 	text-decoration: none;
 }
-
+#reload {
+	margin-top: 10em;
+}
 
 
 

@@ -3,22 +3,16 @@
 
 /*status lights for jquery*/
 #statusLight {
-	right: 233px;
+	position: absolute;
+	right: 1px;
+	top: 1px;
 	height: 20px;
 	width: 20px;
 	border-radius: 50%;
 	background-color: red;
 }
-#statMsg {
-	right: 102px;
-}
-#defi {
-	right: 10px;
-	top: 28px;
-}
-#statusLight, #statMsg, #defi {
-	position: absolute;
-}
-#statusLight, #statMsg {
-	top: 10px;
+
+/*sitewide styles*/
+html {
+	font-family: "Ubuntu", sans-serif;
 }

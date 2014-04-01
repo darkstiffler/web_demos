@@ -1,8 +1,15 @@
 $(document).ready(function(){
-
-	console.log('dom ready');
+	var c = console;
+	c.log('test');
+	c.log('dom ready');
 
 	$('.b1, .b2').click(function(){
-		console.log('you clicked a btn');
+		c.log('you clicked a btn');
+	})
+
+	$('.box').draggable();
+	$('#reload').click(function(){
+		location.reload();
+		c.log('fire reload');
 	})
 })
